@@ -1,5 +1,5 @@
-function juiceIngredients(ingredientOne, ingredientTwo){
-    console.log("Et voila: " + (ingredientOne + ingredientTwo));
+function juiceIngredients(ingredientOne, ingredientTwo) {
+  return ingredientOne + ingredientTwo;
 }
 
-juiceIngredients(kale, ginger);
+console.log(juiceIngredients(kale, ginger);
