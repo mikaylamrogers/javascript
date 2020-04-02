@@ -1,4 +1,8 @@
-function juice(ingredient){ 
+var kale = "kale";
+var ginger = "ginger";
+var strawberry = "strawberry";
+
+function juice(ingredient){
   if (ingredient == "kale"){
     return "sure";
   }
