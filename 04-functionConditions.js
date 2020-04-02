@@ -1,11 +1,11 @@
 function juice(ingredient){
-  if (ingredient == kale){
+  if (ingredient == "kale"){
     return "sure";
   }
-  else if (ingredient == ginger){
+  else if (ingredient == "ginger"){
     return "yes please";
   }
-  else if (ingredient == strawberry){
+  else if (ingredient == "strawberry"){
     return "no thanks";
   }
   else {
@@ -13,7 +13,7 @@ function juice(ingredient){
   }
 }
 
-console.log(ingredient(kale));
-console.log(ingredient(ginger));
-console.log(ingredient(strawberry));
-console.log(ingredient(chocolate));
+console.log(ingredient("kale"));
+console.log(ingredient("ginger"));
+console.log(ingredient("strawberry"));
+console.log(ingredient("chocolate"));
