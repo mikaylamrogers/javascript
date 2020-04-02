@@ -1,4 +1,4 @@
-var kale = "kale";
+var ingredient = "kale";
 var ginger = "ginger";
 var strawberry = "strawberry";
 
@@ -16,8 +16,3 @@ function juice(ingredient){
       return "you'll have to ask my boss";
   }
 }
-
-console.log(ingredient("kale"));
-console.log(ingredient("ginger"));
-console.log(ingredient("strawberry"));
-console.log(ingredient("chocolate"));
