@@ -1,4 +1,4 @@
-function juice(ingredient){
+function juice(ingredient){ 
   if (ingredient == "kale"){
     return "sure";
   }

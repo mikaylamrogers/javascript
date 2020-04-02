@@ -1,9 +1,10 @@
 var firstThing = "ginger";
 var secondThing = "kale";
+var thirdThing = "ginger";
 
-if (firstThing == "ginger"){
-  alert("helps digestion");
-} else if (firstThing == "kale"){
+if (firstThing == thirdThing){
+  alert("helps digestion!");
+} else if (firstThing == secondThing){
   alert("thats an essential ingredient");
 } else {
   alert("please find another juicer");
